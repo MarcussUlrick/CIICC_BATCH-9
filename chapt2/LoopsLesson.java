@@ -27,5 +27,20 @@ public static void main(String[] args) {
             System.out.println();
              x++;
 }
+    String[] colors = {"black", "red", "yellow", "white", "blue"};
+    for(String color: colors)
+    System.out.println("Color: "+color);
+    ROW_TABLE:   for(int p = 1; p<=10; p++){
+    COL_TABLE:   for(int l = 1; l<=10; l++){
+
+                    if(l==5)
+                        //break COL_TABLE;
+                        continue COL_TABLE;
+                    System.out.print(p*l+ " \t");}
+                    System.out.println();
+    
+
+    }
 }
+
 }
